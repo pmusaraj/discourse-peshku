@@ -1,0 +1,64 @@
+.tc-right-sidebar {
+  width: 50%;
+  columns: 2;
+  column-gap: 1.5em;
+
+  + #list-area {
+    width: calc(50% - 1.5em);
+  }
+
+  .rs-component {
+    break-inside: avoid;
+
+    h3 {
+      border-bottom: none;
+      margin-bottom: 0;
+      background-color: rgba(215, 204, 200, 0.4);
+      display: inline-block;
+      padding: 0.5em;
+      font-weight: normal;
+      font-size: var(--font-0);
+    }
+  }
+}
+
+.rs-category-topics {
+  .badge-wrapper {
+    font-size: var(--font-0);
+    padding: 0.5em;
+  }
+
+  .category-topics--content {
+    padding-top: 0;
+  }
+}
+
+a.category-topics--topic {
+  display: block;
+  background-color: #fff;
+  color: #222;
+  padding: 0.75em 0.5em;
+  margin-bottom: 2px;
+  font-weight: bold;
+  font-family: Ember, sans-serif;
+}
+
+.category-topics--posts-count {
+  font-weight: normal;
+}
+
+.recent-replies--reply {
+  background-color: #fff;
+  margin-bottom: 0;
+  padding: 0.5em;
+}
+a.recent-replies--topic-link {
+  color: #222;
+  font-weight: bold;
+  font-family: Ember, sans-serif;
+}
+
+.recent-replies--excerpt {
+  font-size: var(--font-down-1);
+  margin-bottom: 0.5em;
+}

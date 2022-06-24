@@ -1,0 +1,13 @@
+<script>
+    document.addEventListener('copy', function (e){
+        if (Discourse.User.currentProp('username') == undefined) {
+            e.preventDefault();
+            var title = document.getElementsByTagName("title")[0].innerHTML;
+            e.clipboardData.setData("text/plain", window.location.href + ' - ' + title);
+        } 
+    })
+</script>
+
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Signika:300,600" />
+<meta name="apple-mobile-web-app-capable" content="yes">

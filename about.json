@@ -1,0 +1,29 @@
+{
+  "name": "Peshku",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+  },
+  "color_schemes": {
+    "Peshku 1": {
+      "primary": "333333",
+      "secondary": "ffffff",
+      "tertiary": "E53935",
+      "quaternary": "E53935",
+      "header_background": "444444",
+      "header_primary": "FFFFFF",
+      "highlight": "F4C0BC",
+      "danger": "e45735",
+      "success": "009900",
+      "love": "fa6c8d"
+    }
+  },
+  "modifiers": {
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}
